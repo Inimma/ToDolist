@@ -1,5 +1,6 @@
 $('button').click(() => {
-    $('ul').append('<li>' + document.getElementById('todo').value + '</li>');
+    $('ul').append('<li>' + document.getElementById('todo').value + '<button class="done">' + 
+        '</button>' + '</li>');
     $('li:last-child').click((event) => {
         $(event.target).toggleClass('completed');
         });

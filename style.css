@@ -43,6 +43,17 @@ ul {
     list-style-type: none;
 }
 
+.done {
+    border: 1px solid rgb(180, 180, 180);
+    background: none;
+    height: 12px;
+    width: 12px;
+    border-radius: 12px;
+    margin-left: 350px;
+    justify-content: right;
+    align-items: right;
+}
+
 .completed {
     text-decoration: line-through;
   }
